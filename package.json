@@ -1,0 +1,22 @@
+{
+  "name": "@spriteful/app-service-worker",
+  "version": "1.0.0",
+  "description": "Main page service worker registration and updates",
+  "main": "app-service-worker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spriteful/app-service-worker.git"
+  },
+  "author": "Spriteful Dev spritefuldev@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/spriteful/app-service-worker/issues"
+  },
+  "homepage": "https://github.com/spriteful/app-service-worker#readme",
+  "dependencies": {
+    "@spriteful/utils": "^1.1.6"
+  }
+}
