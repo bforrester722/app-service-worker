@@ -15,12 +15,13 @@ if ('serviceWorker' in navigator) {
 	let needsRefresh;
 	const promptUserOfNewVersion = async sw => {
 		// show interactive toast
-  	const event = await swToast(swUpdateMessage);
+  	// const event = await swToast(swUpdateMessage);
+  	// console.log(event)
   	// user hit refresh button not dismiss
-  	if (!event.detail.canceled) {
+  	// if (!event.detail.canceled) {
   		needsRefresh = true;
   		sw.postMessage('skip-waiting');
-  	}
+  	// }
 	};
 	// register sw, listen for new verions
   window.addEventListener('load', async () => {
